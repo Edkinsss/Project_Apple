@@ -16,7 +16,7 @@ async function main() {
  await client.connect();
  console.log('Connected successfully to server');
  const db = client.db(dbName);
- const collection = db.collection('documents');
+ const collection = db.collection('technology');
 
  // the following code examples can be pasted here...
 const insertResult = await collection.insertMany([{ a: 1 }, { a: 2 }, { a: 3 }]);
