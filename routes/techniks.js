@@ -1,5 +1,5 @@
 var express = require('express');
-const { Technology } = require('../models/technology');
+// const { Technology } = require('../models/technology');
 var router = express.Router();
 var technologies = require('../models/technology').technologies;
 
@@ -8,10 +8,10 @@ router.get('/', function(req, res, next) {
   res.send('Новый маршрутизатор, для маршрутов, начинающихся с technologies');
 });
 
-//  Страница после слеша /techniks/....
-router.get("/:nick", function(req, res, next) {
-    res.send(req.params.nick);
-});
+// // Страница после слеша /techniks/....
+// router.get("/:nick", function(req, res, next) {
+//     res.send(req.params.nick);
+// });
 
 
 router.get("/:nick", async function(req, res, next) {
