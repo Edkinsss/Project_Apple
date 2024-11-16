@@ -8,9 +8,10 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express',  counter:req.session.counter  });
 });
 
+
 /* GET login/registration page. */
 router.get('/logreg', function(req, res, next) {
-  res.render('logreg',{title: 'Вход'});
+  res.render('logreg',{title: 'Вход', error: null});
   });
 
 
@@ -35,7 +36,7 @@ router.get('/logreg', function(req, res, next) {
          req.session.user_id = foundUser._id
          res.redirect('/')
        } else {
-         res.render('logreg',{title: 'Вход'});
+         res.render('logreg',{title: 'Вход', error: 'Пароль неверный'});
        }
     }   
  });
