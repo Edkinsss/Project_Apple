@@ -1,8 +1,209 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 170px;
+  margin-left: 500px;
+  background: origin 2px; ;
+  margin-left: 60px;
+  background-image: url('../images/1626845496_34-kartinkin-com-p-bolshoi-serii-fon-krasivo-37.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.title { /*регистрация вход*/
+  background-color: #fcfdfd; /* Черный фон */
+  color: rgb(7, 0, 0); /* Светлый цвет текста */
+  padding: 10px;
+  line-height: 70px;
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: center;
+  border-radius: 35%;
+  font-family: 'Gill Sans', sans-serif;
+  margin: 20px auto; /* Центрирование заголовка */
+  width: fit-content; /* Ширина заголовка под содержимое */
+}
+
+.animated {
+  animation: pulse 2s infinite; /* Анимация пульсации */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.container-fluid { /* Введите имя пользователя и пароль */
+  font-family: 'Gill Sans', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  color: #f8f6f8; /* Светлый цвет текста */
+  text-align: center;
+}
+
+.navbar-brand {
+  border-radius: 10%;
+  color:#7d7878;
+}
+
+.navbar-toggler-icon {
+  width: 30px;
+  height: 15px;
+  border-radius: 10%;
+}
+
+h1 {
+  padding: 10px;
+  text-align: left;
+  color: white;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+p {
+  font-family: 'Gill Sans', sans-serif;
+  text-align: left;
+}
+
+.navbar.navbar-expand-lg.bg-body-tertiary {
+  color: #7d7878;
+  background-color: #ffffff;
+  border-radius: 40px 40px 40px 40px;
+}
+
+.form-control {
+  text-align: left;
+}
+
+.col-sm-5 {
+  text-align: left;
+}
+
+.navbar {
+  background-color: #34495e; /* Темно-серый фон для навигационной панели */
+  padding: 10px 20px;
+  box-shadow: 20px 20px 30px rgba(202, 196, 196, 0.635);
+}
+
+.navbar-brand {
+  color: #f5fafc; /* Светлый цвет текста */
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+
+.control-label {
+  text-decoration: overline;
+  font-family: 'Gill Sans', sans-serif;
+  color: #f5f7f8; /* Светлый цвет текста */
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn-primary {
+  background-color: #15d41e;
+  color: #f5fafc;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #b50ebe;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 50px;
+  background-color: #effbfc;
+}
+
+
+p {
+  text-align: center;
+  color: #f5fafc;
+  margin-left: 10px;
+  margin-top: 30%;
+}
+
+.Hello { /* Привет незалогиненный пользователь */
+  color:white;
+  text-align: center;
+  font-family: 'Gill Sans', sans-serif;
+  padding: 20px;
+  margin: 20px;
+  margin-left: 12px;
+  margin-bottom: 40px;
+  font-size: 25px;
+}
+
+.express { /*Express*/
+  color: white;
+  text-align: center;
+  font-family: 'Gill Sans', sans-serif;
+  margin-left: 5px;
+  font-size: 20px;
 }
 
 a {
-  color: #00B7FF;
+  border: 3px solid ;
+  background-color: #575155d5;
 }
+
+.form-horizontal{
+  text-align: center;
+}
+
+.col-sm-5{
+  text-align: center;
+  margin-left: 130px;
+  padding: 10px;
+}
+
+.control-label col-sm-1{
+  color:white;
+}
+
+.custom-image {
+  width: 300px; /* Укажите нужную ширину */
+  height: auto; /* Автоматически подстроит высоту, сохраняя пропорции */
+  margin-left: 700px;
+  margin-bottom: 500px; 
+}
+
